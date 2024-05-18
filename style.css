@@ -1,0 +1,258 @@
+
+
+:root {
+    --white: white;
+    --green: green;
+    --dodgerBlue: dodgerBlue;
+    --skyBlue: skyblue;
+    --black: black;
+    --lightGreen: lightgreen;
+    --fontSizeHeader: 1.3rem;
+}
+
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: var(--black);
+}
+
+
+
+
+
+
+
+.MainContainer {
+    background: linear-gradient(160deg, var(--skyBlue), var(--dodgerBlue), var(--white), var(--green));
+    max-width: 600px;
+    border-radius: 30px;
+    padding: 30px 7px;
+    text-align: center;
+    margin:100px auto 0;
+    width: 90%;
+    transition: 0.9s linear;
+}
+
+
+
+.User-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 400px;
+    
+}
+
+.User-Wrapper input {
+    padding:13px 10px;
+    border:none;
+    border-radius: 10px;
+    outline:none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    caret-color: var(--dodgerBlue);
+}
+
+.user-input:focus {
+    background-color:var(--black);
+    color:var(--white);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.User-Wrapper button {
+    width: 50px;
+    height: 60px;
+    border:none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.User-Wrapper button:hover {
+    color:var(--lightGreen)
+}
+
+
+
+.Countries-Information {
+    display: none;
+}
+
+
+
+.error {
+    visibility: hidden;
+    color:dodgerBlue;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+.Countries-Container {
+    display: grid;
+    grid-template-columns: 20px 50px 50px 10px;
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: start;
+    gap:106px;
+    margin-block: 30px;
+    transition: 0.6s linear;
+
+}
+
+
+.Countries-Container h3:nth-of-type(1) {
+    font-size:var(--fontSizeHeader);
+    margin-left: -30px;
+}
+
+.Countries-Container h3:nth-of-type(2) {
+    font-size: 1rem;
+    margin-left: -34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+.Countries-Container-Two {
+    display: grid;
+    grid-template-columns: 20px 50px 50px 10px;
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: start;
+    gap:106px;
+    margin-block: 30px;
+    transition: 0.9s linear;
+
+
+
+}
+
+
+
+.Countries-Container-Two h3:nth-of-type(1) {
+    font-size:var(--fontSizeHeader);
+    margin-left: -30px;
+}
+
+.Countries-Container-Two h3:nth-of-type(2) {
+    font-size: 1rem;
+    margin-left: -34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.Countries-Container-Three {
+    display: grid;
+    grid-template-columns: 20px 50px 50px 10px;
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: start;
+    gap:106px;
+    margin-block: 30px;
+    transition: 1.2s linear;
+
+
+}
+
+
+.Countries-Container-Three h3:nth-of-type(1) {
+    font-size:var(--fontSizeHeader);
+    margin-left: -30px;
+}
+
+
+.Countries-Container-Three h3:nth-of-type(2) {
+    font-size: 1rem;
+    margin-left: -34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.Countries-Container-Four {
+    display: grid;
+    grid-template-columns: 20px 50px 50px 10px;
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: start;
+    gap:106px;
+    margin-block: 30px;
+    transition: 1.5s linear;
+
+}
+
+
+
+.Countries-Container-Four h3:nth-of-type(1) {
+    font-size:var(--fontSizeHeader);
+    margin-left: -30px;
+}
+
+.Countries-Container-Four h3:nth-of-type(2) {
+    font-size: 0.8rem;
+    margin-left: -40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.Countries-Container-Five {
+    display: grid;
+    grid-template-columns: 20px 50px 50px 10px;
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: start;
+    gap:106px;
+    margin-block: 30px;
+    transition: 1.8s linear;
+
+}
+
+
+
+.Countries-Container-Five h3:nth-of-type(1) {
+    font-size:var(--fontSizeHeader);
+    margin-left: -30px;
+}
+
+.Countries-Container-Five h3:nth-of-type(2) {
+    font-size: 1rem;
+    margin-left: -34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
