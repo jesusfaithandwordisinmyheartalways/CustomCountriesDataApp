@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="countries.js"></script>
+
+
+    <title>Country Data</title>
+</head>
+
+
+
+<body onload="hideDisplay()">
+
+
+<div class="MainContainer">
+
+     <div class="User-Wrapper">
+            <input class="user-input" id="user-input" type="text" name="userCountry" placeholder="Country Data Information" spellcheck="false">
+            <button class="user-btn" id="user-btn"><img src="/images/Search.png"></button>
+    </div>
+
+        <div class="error" id="error" name="error">
+                <p>Please Enter Valid Country Name</p>
+        </div>
+
+    <div class="Countries-Information" id="countries-information" name="countries-information">
+
+     <div class="Countries-Container" id="countries-container">
+        <img class="pop-imagery"  src="/images/Population.png">
+        <img src="/images/Arrow.png">
+        <h3>Population: </h3>
+        <h3 class="population" id="population"></h3>
+        </div>
+
+     <div class="Countries-Container-Two" id="countries-container-two">
+        <img src="/images/Currency.png">
+        <img src="/images/Arrow.png">
+        <h3>Currency: </h3>
+        <h3 class="currency" id="currency"></h3>
+        </div>
+    
+
+
+    <div class="Countries-Container-Three" id="countries-container-three">
+        <img src="/images/TimeZone.png">
+        <img src="/images/Arrow.png">
+        <h3>TimeZone: </h3>
+        <h3 class="timezones" id="timezones"></h3>
+    </div>
+
+    <div class="Countries-Container-Four" id="countries-container-four">
+        <img src="/images/Language.png">
+        <img src="/images/Arrow.png">
+        <h3>Languages: </h3>
+        <h3 class="languages" id="languages"></h3>
+    </div>
+
+
+    <div class="Countries-Container-Five" id="countries-container-five">
+        <img src="/images/Capital.png">
+        <img src="/images/Arrow.png">
+        <h3>Capital: </h3>
+        <h3 class="capital" id="capital"></h3>
+    </div>
+
+
+</div>
+
+
+
+ </div>
+
+
+
+
+        
+
+
+
+
+
+    
+</body>
+</html>
